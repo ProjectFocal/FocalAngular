@@ -1,12 +1,14 @@
-<div class="flex flex-row">
+<div class="flex flex-row" *ngIf="showNav">
   <div class="w-full bg-main-gray">
-
-  <app-topnav *ngIf="showNav"class="w-full"></app-topnav>
-
-  <app-sidenav *ngIf="showNav" class="w-1/6 h-screen bg-main-white"></app-sidenav>
-  <router-outlet ></router-outlet>
-
-
+  <app-topnav class="w-full"></app-topnav>
+  <div class="flex flex-row">
+    <app-sidenav></app-sidenav>
+    <div class="w-full">
+      <router-outlet></router-outlet>
+    </div>
   </div>
 </div>
 
+<div *ngIf="!showNav">
+  <router-outlet ></router-outlet>
+</div>

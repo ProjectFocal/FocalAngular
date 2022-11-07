@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { FriendsComponent } from './friends/friends.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent},
   { path: 'account-recovery', component: AccountRecoveryComponent},

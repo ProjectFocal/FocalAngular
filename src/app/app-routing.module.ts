@@ -7,6 +7,7 @@ import { RegisterComponent } from './register/register.component';
 import { AccountRecoveryComponent } from './account-recovery/account-recovery.component';
 import { HomeComponent } from './home/home.component';
 import { FriendsComponent } from './friends/friends.component';
+import { AboutUsComponent } from  './about-us/about-us.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'account-recovery', component: AccountRecoveryComponent},
   { path: 'home', component: HomeComponent},
   { path: 'friend', component: FriendsComponent},
+  { path: 'about-us', component: AboutUsComponent},
 ];
 
 @NgModule({

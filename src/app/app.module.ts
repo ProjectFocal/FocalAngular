@@ -10,6 +10,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { TopnavComponent } from './topnav/topnav.component';
 import { HomeComponent } from './home/home.component';
 import { FriendsComponent } from './friends/friends.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FriendsComponent } from './friends/friends.component';
     SidenavComponent,
     TopnavComponent,
     HomeComponent,
-    FriendsComponent
+    FriendsComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

@@ -11,6 +11,10 @@ import { TopnavComponent } from './topnav/topnav.component';
 import { HomeComponent } from './home/home.component';
 import { FriendsComponent } from './friends/friends.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ProfileComponent } from './profile/profile.component';
+import { NotificationsComponent } from './notifications/notifications.component';
+import { FocalPointsComponent } from './focal-points/focal-points.component';
+import { SettingsComponent } from './settings/settings.component';
 
 
 @NgModule({
@@ -23,7 +27,11 @@ import { AboutUsComponent } from './about-us/about-us.component';
     TopnavComponent,
     HomeComponent,
     FriendsComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ProfileComponent,
+    NotificationsComponent,
+    FocalPointsComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,

@@ -13,6 +13,7 @@ import { NotificationsComponent } from './notifications/notifications.component'
 import { FocalPointsComponent } from './focal-points/focal-points.component';
 import { SettingsComponent } from './settings/settings.component';
 import { CreateMediaComponent} from './create-media/create-media.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -26,7 +27,8 @@ const routes: Routes = [
   { path: 'notifications', component: NotificationsComponent},
   { path: 'settings', component: SettingsComponent},
   { path: 'focal-points', component: FocalPointsComponent},
-  { path: 'create-media', component: CreateMediaComponent}
+  { path: 'create-media', component: CreateMediaComponent},
+  { path: 'landing-page', component: LandingPageComponent}
 
 ];
 

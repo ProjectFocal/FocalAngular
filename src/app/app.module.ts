@@ -16,6 +16,7 @@ import { NotificationsComponent } from './notifications/notifications.component'
 import { FocalPointsComponent } from './focal-points/focal-points.component';
 import { SettingsComponent } from './settings/settings.component';
 import { CreateMediaComponent } from './create-media/create-media.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { CreateMediaComponent } from './create-media/create-media.component';
     NotificationsComponent,
     FocalPointsComponent,
     SettingsComponent,
-    CreateMediaComponent
+    CreateMediaComponent,
+    LandingPageComponent,
   ],
   imports: [
     BrowserModule,

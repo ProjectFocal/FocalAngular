@@ -14,7 +14,7 @@ export class AppComponent {
   }
   ngOnInit(): void {
     this.router.events.subscribe((val) => {
-      if (this.router.url === '/login' || this.router.url === '/register' || this.router.url === '/account-recovery') {
+      if (this.router.url === '/login' || this.router.url === '/register' || this.router.url === '/account-recovery' || this.router.url === '/landing-page') {
         this.showNav = false;
       } else {
         this.showNav = true;

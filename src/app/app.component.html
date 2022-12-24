@@ -7,10 +7,10 @@
     <app-sidenav *ngIf="showNav"></app-sidenav>
     <div class="w-full">
       <router-outlet *ngIf="showNav"></router-outlet>
-    
+
   </div>
 </div>
 
-<div *ngIf="!showNav">
-  <router-outlet></router-outlet>
-</div>
+
+  <router-outlet *ngIf="!showNav"></router-outlet>
+
